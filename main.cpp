@@ -1,3 +1,41 @@
+/*
+**********************************************************************************
+SISTEMA DE GESTIÓN DE DONANTES Y SOLICITANTES DE SANGRE - CRUZ ROJA
+**********************************************************************************
+Este sistema fue extendido como parte del taller de Programación Orientada a Objetos,
+incorporando nuevos requerimientos como gestión de solicitantes, compatibilidad
+sanguínea y historiales. Mantiene el enfoque en encapsulamiento y modularidad.
+
+**********************************************************************************
+AUTOR DEL ARCHIVO: Victor Bucheli
+**********************************************************************************
+
+Resuelto por:
+
+- Valentina Montezuma Gonzalez (202242058)
+- Julian Meneses Moncada (2042970)
+- Joan Sebastian Rivera Henk (2222936)
+- Oriana Pajaro (2438031)
+
+
+================================================================================
+DESCRIPCIÓN:
+================================================================================
+
+Punto de entrada principal del sistema. Gestiona el menú interactivo y coordina
+las operaciones entre módulos. Las nuevas funcionalidades implementadas incluyen:
+
+- Registro de solicitantes
+- Procesamiento de entregas con validación de compatibilidad
+- Visualización de historiales integrados
+
+Interactúa con: BloodDatabase (gestión de datos), Donor y Solicitante (entidades)
+
+================================================================================
+FECHA ÚLTIMA MODIFICACIÓN: 10/04/25
+================================================================================
+*/
+
 #include "BloodDatabase.h"
 #include <iostream>
 #include <limits>

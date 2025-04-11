@@ -1,3 +1,33 @@
+/*
+**********************************************************************************
+CLASE: BloodDatabase
+**********************************************************************************
+PROPÓSITO:
+Gestiona toda la lógica de persistencia y operaciones complejas del sistema.
+Coordina entre entidades (Donor/Solicitante) y archivos de almacenamiento.
+
+INTERACCIÓN PRINCIPAL:
+- main.cpp: Recibe solicitudes del menú principal
+- Donor/Solicitante: Manipula instancias de estas clases
+- Archivos .txt: Persistencia de datos (data.txt, solicitantes.txt, entregas.txt)
+
+MÉTODOS DESTACADOS (NUEVOS):
+1. registrarSolicitante():
+   - Flujo: Interacción usuario → validación → almacenamiento
+
+2. procesarEntrega():
+   - Flujo: Verifica stock → chequea compatibilidad → registra entrega
+
+3. mostrarHistoriales():
+   - Variantes: Donaciones/Solicitudes/Entregas
+   - Tecnología: Lectura de archivos con filtrado
+
+FUNCIONALIDADES BASE:
+- Manejo de donantes (CRUD)
+- Búsquedas geográficas
+- Validación de entradas
+**********************************************************************************
+*/
 #ifndef BLOODDATABASE_H
 #define BLOODDATABASE_H
 
